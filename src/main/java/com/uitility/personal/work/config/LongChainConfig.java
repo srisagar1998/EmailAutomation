@@ -19,10 +19,6 @@ public class LongChainConfig {
                 .apiKey("dummy")
                 .modelName("google/gemma-3-1b")
                 .build();
-//        GeminiChatModel model = GeminiChatModel.builder()
-//                .apiKey("AQ.Ab8RN6LyckCDWtOoNfEajsDksDKIFoAvAbL8Mttyjx3pOY6e2Q")
-//                .modelName("gemini-2.5-flash")
-//                .build();
      return AiServices.create(EmailAssistant.class, model);
     }
 
